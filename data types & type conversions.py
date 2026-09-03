@@ -1,40 +1,51 @@
 Python 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> #datatypess
->>> a=
-SyntaxError: invalid syntax
+
+
 >>> a=7
 >>> type(a)
 <class 'int'>
+
 >>> b=6.7
 >>> type(b)
 <class 'float'>
+
 >>> c='python'
 >>> type(c)
 <class 'str'>
+
 >>> d='''codegnan'''
 >>> type(d)
 <class 'str'>
+
 >>> e="codegnan'
 SyntaxError: unterminated string literal (detected at line 1)
 >>> e="codegnan"
 >>> type(e)
 <class 'str'>
+
 >>> f=6+9j
 >>> type(f)
 <class 'complex'>
+
 >>> g=4j+6
 >>> type(g)
 <class 'complex'>
+
 >>> h=6j
 >>> type(h)
 <class 'complex'>
+
 >>> x=5+9i
 SyntaxError: invalid decimal literal
 >>> i=6j+5j
 >>> type(i)
 <class 'complex'>
+
 >>> #datatype conversions
+
+
 >>> #int
 >>> int(8)
 8
@@ -112,7 +123,6 @@ complex(True)
 (1+0j)
 complex(False)
 0j
-
 
 #boolean
 bool(8)
